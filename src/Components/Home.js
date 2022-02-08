@@ -28,7 +28,7 @@ function Home() {
                     <article className="overflow-hidden rounded-lg shadow-lg h-[fit-content]">
 
                         <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                            <a className="flex items-center no-underline hover:underline text-black" href="#">
+                            <a className="flex items-center no-underline hover:underline text-black" href="/">
                                 <h1 className="text-lg text-blue-600 font-bold">
                                     {e.Name}
                                 </h1>
@@ -66,7 +66,7 @@ function Home() {
                     <article className="overflow-hidden rounded-lg shadow-lg h-[fit-content]">
 
                         <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                            <a className="flex items-center no-underline hover:underline text-black" href="#">
+                            <a className="flex items-center no-underline hover:underline text-black" href="/">
                                 <h1 className="text-lg text-blue-600 font-bold">
                                     {e.Name}
                                 </h1>
@@ -108,7 +108,7 @@ function Home() {
                     <article className="overflow-hidden rounded-lg shadow-lg h-[fit-content]">
 
                         <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                            <a className="flex items-center no-underline hover:underline text-black" href="#">
+                            <a className="flex items-center no-underline hover:underline text-black" href="/">
                                 <h1 className="text-lg text-blue-600 font-bold">
                                     {e.Name}
                                 </h1>
@@ -149,7 +149,7 @@ function Home() {
                     <article className="overflow-hidden rounded-lg shadow-lg h-[fit-content]">
 
                         <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                            <a className="flex items-center no-underline hover:underline text-black" href="#">
+                            <a className="flex items-center no-underline hover:underline text-black" href="/">
                                 <h1 className="text-lg text-blue-600 font-bold">
                                     {e.Name}
                                 </h1>
@@ -191,7 +191,7 @@ function Home() {
                 <article className="overflow-hidden rounded-lg shadow-lg h-[fit-content]">
 
                     <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                        <a className="flex items-center no-underline hover:underline text-black" href="#">
+                        <a className="flex items-center no-underline hover:underline text-black" href="/">
                             <h1 className="text-lg text-blue-600 font-bold">
                                 {e.Name}
                             </h1>
@@ -231,7 +231,7 @@ function Home() {
                     <article className="overflow-hidden rounded-lg shadow-lg h-[fit-content]">
 
                         <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                            <a className="flex items-center no-underline hover:underline text-black" href="#">
+                            <a className="flex items-center no-underline hover:underline text-black" href="/">
                                 <h1 className="text-lg text-blue-600 font-bold">
                                     {e.Name}
                                 </h1>
@@ -272,7 +272,7 @@ function Home() {
                     <article className="overflow-hidden rounded-lg shadow-lg h-[fit-content]">
 
                         <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                            <a className="flex items-center no-underline hover:underline text-black" href="#">
+                            <a className="flex items-center no-underline hover:underline text-black" href="/">
                                 <h1 className="text-lg text-blue-600 font-bold">
                                     {e.Name}
                                 </h1>
@@ -313,7 +313,7 @@ function Home() {
                     <article className="overflow-hidden rounded-lg shadow-lg h-[fit-content]">
 
                         <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                            <a className="flex items-center no-underline hover:underline text-black" href="#">
+                            <a className="flex items-center no-underline hover:underline text-black" href="/">
                                 <h1 className="text-lg text-blue-600 font-bold">
                                     {e.Name}
                                 </h1>
@@ -341,7 +341,7 @@ function Home() {
                 </div>
                 )
 
-            } else { }
+            } else {}
         })
         setText(detail1);
 
@@ -355,7 +355,7 @@ function Home() {
 
     useEffect(() => {
         const details = jobList.filter((value) => {
-            if (searchText == "") {
+            if (searchText === "") {
                 return value;
 
             } else if (value.Name.toLowerCase().includes(searchText.toLowerCase())) {
@@ -370,7 +370,7 @@ function Home() {
                     <article className="overflow-hidden rounded-lg shadow-lg h-[fit-content]">
 
                         <header className="flex items-center justify-between leading-tight p-2 md:p-4">
-                            <a className="flex items-center no-underline hover:underline text-black" href="#">
+                            <a className="flex items-center no-underline hover:underline text-black" href="/">
                                 <h1 className="text-lg text-blue-600 font-bold">
                                     {e.Name}
                                 </h1>
@@ -418,13 +418,13 @@ function Home() {
 
                         <ul className="py-1 cursor-pointer" aria-labelledby="dropdown">
                             <li>
-                                <a onClick={price1} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">1000 - 3000</a>
+                                <a href="/" onClick={price1} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">1000 - 3000</a>
                             </li>
                             <li>
-                                <a onClick={price2} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">4000 - 6000</a>
+                                <a href="/" onClick={price2} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">4000 - 6000</a>
                             </li>
                             <li>
-                                <a onClick={price3} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">7000 - 10000</a>
+                                <a href="/" onClick={price3} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">7000 - 10000</a>
                             </li>
                         </ul>
                     </div>
@@ -436,13 +436,13 @@ function Home() {
 
                         <ul className="py-1  cursor-pointer" aria-labelledby="dropdown">
                             <li>
-                                <a onClick={month1} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">0 - 1 Month</a>
+                                <a href="/" onClick={month1} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">0 - 1 Month</a>
                             </li>
                             <li>
-                                <a onClick={month2} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">2 - 3 Months</a>
+                                <a href="/" onClick={month2} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">2 - 3 Months</a>
                             </li>
                             <li>
-                                <a onClick={month3} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">4 - 5 Months</a>
+                                <a href="/" onClick={month3} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">4 - 5 Months</a>
                             </li>
                         </ul>
                     </div>
