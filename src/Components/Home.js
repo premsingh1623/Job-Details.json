@@ -418,13 +418,13 @@ function Home() {
 
                         <ul className="py-1 cursor-pointer" aria-labelledby="dropdown">
                             <li>
-                                <a href="/" onClick={price1} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">1000 - 3000</a>
+                                <a onClick={price1} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">1000 - 3000</a>
                             </li>
                             <li>
-                                <a href="/" onClick={price2} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">4000 - 6000</a>
+                                <a onClick={price2} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">4000 - 6000</a>
                             </li>
                             <li>
-                                <a href="/" onClick={price3} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">7000 - 10000</a>
+                                <a onClick={price3} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">7000 - 10000</a>
                             </li>
                         </ul>
                     </div>
@@ -436,13 +436,13 @@ function Home() {
 
                         <ul className="py-1  cursor-pointer" aria-labelledby="dropdown">
                             <li>
-                                <a href="/" onClick={month1} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">0 - 1 Month</a>
+                                <a onClick={month1} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">0 - 1 Month</a>
                             </li>
                             <li>
-                                <a href="/" onClick={month2} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">2 - 3 Months</a>
+                                <a onClick={month2} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">2 - 3 Months</a>
                             </li>
                             <li>
-                                <a href="/" onClick={month3} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">4 - 5 Months</a>
+                                <a onClick={month3} className="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2 text-center">4 - 5 Months</a>
                             </li>
                         </ul>
                     </div>
